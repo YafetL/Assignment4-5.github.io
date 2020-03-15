@@ -1,0 +1,58 @@
+/* Element [Tag] */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    border: solid 10px lightgray;
+    background-color: skyblue;
+    margin: 10px auto;
+} 
+header{
+    background-color: rgba(119, 90, 90, 0.6);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 30px;
+    margin-top: 100px;
+}
+article{
+    line-height: 25px;
+    font-size: 15px;
+    text-align: justify;
+}
+.title{
+    font-size: 23px;
+    font-weight: bold;
+}
+.date{
+    font-style: italic;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+/* changing the nature */
+nav > ul > li{
+    display: inline-block;
+    pad: 10px, 3px;
+    font-size: 20px;
+}
+nav > ul > li > a{
+    text-decoration: none;
+}
+nav > ul > li:hover{
+    background-color: aqua;
+}
+img{
+    /* width: 300px;
+    height: 300px;
+    border-radius: 100%; */
+    float: left;
+}
+#clear{
+    clear:left;
+}
+
+
