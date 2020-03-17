@@ -4,20 +4,21 @@
     padding: 0;
 }
 body{
-    border: solid 10px lightgray;
-    background-color: white;
+    border: 10px lightgray;
+    background-color: rgb(53, 53, 53);
     margin: 10px auto;
 } 
 header{
-    background-color: rgba(119, 90, 90, 0.6);
+    background-color: rgb(185, 184, 184);
     position: fixed;
     top: 0;
     width: 100%;
+    opacity: 0.4;
 }
 section{
     font-family: Arial, Helvetica, sans-serif;
     padding: 5px 30px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 article{
     line-height: 25px;
@@ -41,9 +42,15 @@ nav > ul > li{
 }
 nav > ul > li > a{
     text-decoration: none;
+    color: black;
+    padding-right: 25px;
+    padding-left: 25px;
 }
-nav > ul > li:hover{
-    background-color: aqua;
+nav > ul > li > a:hover{
+    background-color: black;
+    color: rgb(185, 184, 184);
+    transition-duration: 300ms;
+    transition-delay: 300ms;
 }
 img{
     /* width: 300px;
@@ -55,7 +62,25 @@ img{
     clear:left;
 }
 .q4{
+    
+}
+#content{
     text-align: justify;
     margin-left: 300px;
     margin-right: 300px;
+    color: white;
+}
+.Bimg{
+    opacity: 0.5;
+}
+div > a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+div > a:hover{
+    background-color: white;
+    color: rgb(53, 53, 53);
+    transition-duration: 300ms;
+    transition-delay: 300ms;
 }
