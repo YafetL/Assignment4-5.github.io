@@ -19,16 +19,21 @@
 <!--  -->
 <div id = "content">
     <!--  -->
-    <section>
-        <p class = "title">My first post</p>
+    <section class="q4">
+        <p class = "title">The power of em and rem</p>
         <article>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores fugiat quidem eveniet quia ea! Debitis officiis id aspernatur libero enim voluptate eaque cumque nihil.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores fugiat quidem eveniet quia ea! Debitis officiis id aspernatur libero enim voluptate eaque cumque nihil.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores fugiat quidem eveniet quia ea! Debitis officiis id aspernatur libero enim voluptate eaque cumque nihil.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores fugiat quidem eveniet quia ea! Debitis officiis id aspernatur libero enim voluptate eaque cumque nihil.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores fugiat quidem eveniet quia ea! Debitis officiis id aspernatur libero enim voluptate eaque cumque nihil.</p>
+            <p>An em value is calculated against the font-size of a current element, so boxes sized with it will consequently scale as font sizes are adjusted by the element or its 
+                ancestors. Meanwhile, rem is defined as the font-size of the root element. So, all references to rem will return the same value, regardless of ancestor font size. In 
+                effect, rem is a document-wide CSS variable. Browser support for rem is quite good these days. It’s limited on desktop because IE8 does not support it, but common mobile 
+                and tablet browsers handle it much better.There are a couple of reasons to use this pattern. Of course you can set everything in pixels, but if you want to make something 
+                responsive, you usually need to overwrite more values. And another, maybe more important, reason: some people will have their browser font size set to something else than 
+                the default 16px, for example people who are visually impaired. You may be familiar with a browser’s page zoom setting, which scales up all the contents on the page 
+                proportionally. A lesser known feature of most browsers, though, is the option to adjust your preferred font size. This feature operates independently from the page zoom 
+                feature. For example, these are the options used for the font size drop-down menu in Chrome’s appearance settings — ranging from the very small (9px) through very large 
+                (24px) — with the recommended default of medium set at 16px. If you set a higher default font size, you wouldn't have to zoom in the browser to be able to read a website, 
+                because the content of a website with relative units would increase with your preferred font size.</p>
         </article>
-        <p class = "date">March 12, 2020 : 7:00 am</p>
+        <p class = "date">March 16, 2020 : 9:29 pm</p>
     </section>
     <section>
         <p class = "title">My second post</p>
