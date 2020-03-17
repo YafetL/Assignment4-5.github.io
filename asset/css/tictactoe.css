@@ -1,0 +1,77 @@
+#square1{
+    float: left;
+    border-right: 2.5px solid;
+    border-bottom: 2.5px solid;
+    width: 160px;
+    height: 160px;
+}
+#square2{
+    float: left;
+    border: 2.5px solid;
+    border-top: transparent;
+    width: 160px;
+    height: 160px;
+}
+#square3{
+    float: left;
+    border-left: 2.5px solid;
+    border-bottom: 2.5px solid;
+    width: 160px;
+    height: 160px;
+}
+#square4{
+    float: left;
+    border: 2.5px solid;
+    border-left: transparent;
+    width: 160px;
+    height: 160px;
+}
+#square5{
+    float: left;
+    border: 2.5px solid;
+    width: 160px;
+    height: 160px;
+}
+#square6{
+    float: left;
+    border: 2.5px solid;
+    border-right: transparent;
+    width: 160px;
+    height: 160px;
+}
+#square7{
+    float: left;
+    border-right: 2.5px solid;
+    border-top: 2.5px solid;
+    width: 160px;
+    height: 160px;
+}
+#square8{
+    float: left;
+    border: 2.5px solid;
+    border-bottom: transparent;
+    width: 160px;
+    height: 160px;
+}
+#square9{
+    float: left;
+    border-left: 2.5px solid;
+    border-top: 2.5px solid;
+    width: 160px;
+    height: 160px;
+}
+
+#clear{
+    clear: left;
+}
+
+.container{
+    margin-left: 400px;
+    margin-top: 65px;
+}
+
+div > div:hover{
+    background-color: darkslategray;
+    transition-duration: 500ms;
+}
+
