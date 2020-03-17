@@ -1,0 +1,386 @@
+.total{
+    margin-left: 40px;
+    margin-right: 40px;
+    float: left;  
+    position: relative; 
+}
+.container{
+    width: 250px;
+    height: 150px;
+    border: lightgrey 1px solid;
+    position: relative;
+}
+.star-container{
+    width: 62.5px;
+    height: 50px;
+    position: absolute;
+    background-color: white;
+    margin-left: 85px;
+    margin-top: 45px;
+}
+.star-border{
+    width: 59px;
+    height: 49.5px;
+    border: 2px solid rgb(35, 241, 241);
+    margin-left: 85px;
+    margin-top: 45px;
+
+    position: absolute;
+}
+#clear{
+    clear: left;
+}
+/* United Arab Emirates */
+.flag11{
+    width: 50px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+}
+.flag12{
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    margin-left: 50px;
+}
+.flag13{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.flag14{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+/* Italy */
+.flag21{
+    float: left;
+    width: 83.333333333px;
+    height: 150px;
+    background-color: green;
+}
+.flag22{
+    float: left;
+    width: 83.333333333px;
+    height: 150px;
+    background-color: white;
+}
+.flag23{
+    float: left;
+    width: 83.333333333px;
+    height: 150px;
+    background-color: red;
+}
+/* Madagaskar */
+.flag31{
+    width: 50px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+}
+.flag32{
+    width: 200px;
+    height: 75px;
+    background-color: red;
+    position: absolute;
+    margin-left: 50px;
+}
+.flag33{
+    width: 200px;
+    height: 75px;
+    background-color: green;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 75px;
+}
+/* Austria */
+.flag41{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(245, 48, 48);
+}
+.flag42{
+    width: 250px;
+    height: 50px;
+    background-color: white;
+}
+.flag43{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(245, 48, 48);
+}
+/* Bahamas */
+.flag51{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(17, 201, 176);
+    position: absolute;
+}
+.flag52{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(218, 240, 18);
+    position: absolute;
+    margin-top: 50px;
+}
+.flag53{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(17, 201, 176);
+    position: absolute;
+    margin-top: 100px;
+}
+.triangle-right5 {
+	width: 0;
+	height: 0;
+	border-top: 75px solid transparent;
+	border-left: 125px solid black;
+    border-bottom: 75px solid transparent;
+    position: absolute;
+}
+/* Czechia */
+.flag61{
+    width: 250px;
+    height: 75px;
+    background-color: white;
+    position: absolute;
+}
+.flag62{
+    width: 250px;
+    height: 75px;
+    background-color: #e21313;
+    position: absolute;
+    margin-top: 75px;
+}
+.triangle-right6 {
+	width: 0;
+	height: 0;
+	border-top: 75px solid transparent;
+	border-left: 100px solid rgb(33, 33, 241);
+    border-bottom: 75px solid transparent;
+    position: absolute;
+}
+/* Denmark */
+.flag71{
+    width: 250px;
+    height: 150px;
+    background-color: rgb(245, 48, 48);
+    position: absolute;
+}
+.flag72{
+    width: 250px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    margin-top: 65px;
+}
+.flag73{
+    width: 20px;
+    height: 150px;
+    background-color: white;;
+    position: absolute;
+    margin-left: 65px;
+}
+/* Palau */
+.flag81{
+    width: 250px;
+    height: 150px;
+    background-color: rgba(43, 154, 228, 0.692);
+    position: absolute;
+}
+.flag82{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(235, 252, 8);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 35px;
+}
+/* Somalia */
+.tr-corner{
+    width: 23.75px;
+    height: 0px;
+    border-right: 7.5px solid transparent;
+    border-left: 0px solid transparent;
+    border-top: 16.6666665px solid rgb(35, 241, 241);
+    position: absolute;
+}
+.tl-corner{
+    width: 23.75px;
+    height: 0px;
+    border-right: 0px solid transparent;
+    border-left: 7.5px solid transparent;
+    border-top: 16.6666665px solid rgb(35, 241, 241);
+    position: absolute;
+    left: 31.25px;
+}
+.bl-corner{
+	width: 0;
+	height: 0;
+	border-top: 14.1666665px solid transparent;
+	border-right: 19.1666665px solid rgb(35, 241, 241);
+    border-bottom: 14.1666665px solid transparent;
+    margin-left: 43.25px;
+    margin-top: 16.6666665px;
+    position: absolute;
+}
+.br-corner{
+	width: 0;
+	height: 0;
+	border-top: 14.1666665px solid transparent;
+    border-left: 19.1666665px solid rgb(35, 241, 241);
+    border-bottom: 14.1666665px solid transparent;
+    position: absolute;
+    margin-top: 16.6666665px;
+}
+.blcorner{
+    width: 6.6666665px;
+    height: 0px;
+    border-right: 12.5px solid transparent;
+    border-left: 0px solid transparent;
+    border-top: 19.1666665px solid rgb(35, 241, 241);
+    position: absolute;
+    margin-top: 31px;
+}
+.brcorner{
+    width: 6.6666665px;
+    height: 0px;
+    border-right: 0px solid transparent;
+    border-left: 12.5px solid transparent;
+    border-top: 19.1666665px solid rgb(35, 241, 241);
+    position: absolute;
+    left: 43.25px;
+    margin-top: 31px;
+}
+.bottom{
+	width: 0;
+	height: 0;
+	border-left: 23.75px solid transparent;
+	border-bottom: 12.5px solid rgb(35, 241, 241);
+    border-right: 23.75px solid transparent;
+    position: absolute;
+    margin-top: 37.75px;
+    margin-left: 7.5px;
+}
+.flag9{
+    width: 250px;
+    height: 150px;
+    background-color: rgb(35, 241, 241);
+    position: absolute;
+}
+.flag101{
+    width: 250px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+}
+.flag102{
+    width: 60px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    margin-left: 95px;
+    margin-top: 65px;
+}
+.flag103{
+    width: 20px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    margin-left: 115px;
+    margin-top: 45px;
+}
+.flag111{
+	width: 250px;
+    height: 150px;
+    background-color: green;
+    position: absolute;
+}
+.flag112{
+	width: 0;
+	height: 0;
+	border-top: 75px solid transparent;
+	border-left: 250px solid white;
+    border-bottom: 75px solid transparent;
+    position: absolute;
+}
+.flag113{
+	width: 0;
+	height: 0;
+	border-top: 70px solid transparent;
+	border-left: 245px solid yellow;
+    border-bottom: 70px solid transparent;
+    position: absolute;
+    margin-top: 5px;
+}
+.flag114{
+	width: 0;
+	height: 0;
+	border-top: 75px solid transparent;
+	border-left: 110px solid black;
+    border-bottom: 75px solid transparent;
+    position: absolute;
+}
+.flag115{
+	width: 0;
+	height: 0;
+	border-top: 70px solid transparent;
+	border-left: 100px solid rgb(214, 21, 21);
+    border-bottom: 70px solid transparent;
+    position: absolute;
+    margin-top: 5px;
+}
+.flag121{
+	width: 250px;
+    height: 150px;
+    background-color: yellow;
+    position: absolute;
+}
+.flag122{
+	width: 0;
+	height: 0;
+	border-left: 105px solid transparent;
+	border-right: 105px solid transparent;
+	border-bottom: 55px solid green;
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 20px;
+}
+.flag123{
+	width: 0;
+	height: 0;
+	border-left: 105px solid transparent;
+	border-right: 105px solid transparent;
+	border-top: 55px solid green;
+    position: absolute;
+    margin-left: 20px;
+}
+.flag124{
+	width: 0;
+	height: 0;
+	border-top: 55px solid transparent;
+	border-right: 95px solid black;
+	border-bottom: 55px solid transparent;
+    position: absolute;
+    margin-left: 155px;
+    margin-top: 20px;
+}
+.flag125{
+	width: 0;
+	height: 0;
+	border-top: 55px solid transparent;
+	border-left: 95px solid black;
+	border-bottom: 55px solid transparent;
+    position: absolute;
+    margin-top: 20px;
+}
+
