@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="./asset/image/MyIcon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My blog</title>
     <link rel="stylesheet" href="./asset/css/style.css">
@@ -10,11 +11,11 @@
 <header>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="Galary.html">Galary</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="myworks.html">My Works</a></li>
+            <li><a href="index.html" target="blanck">Home</a></li>
+            <li><a href="contact.html" target="blanck">Contact</a></li>
+            <li><a href="Galary.html" target="blanck">Galary</a></li>
+            <li><a href="blog.html" target="blanck">Blog</a></li>
+            <li><a href="myworks.html" target="blanck">My Works</a></li>
         </ul>
     </nav>
 </header>
@@ -26,7 +27,7 @@
         <article>
             <p>An em value is calculated against the font-size of a current element, so boxes sized with it will consequently scale as font sizes are adjusted by the element or its 
                 ancestors. Meanwhile, rem is defined as the font-size of the root element. So, all references to rem will return the same value, regardless of ancestor font size. In 
-                effect, rem is a document-wide CSS variable. Browser support for rem is quite good these days. It’s limited on desktop because IE8 does not support it, but common mobile 
+                effect, <a id="innerlink" href="https://www.sitepoint.com/understanding-and-using-rem-units-in-css/" target="blanck">rem</a> is a document-wide CSS variable. Browser support for rem is quite good these days. It’s limited on desktop because IE8 does not support it, but common mobile 
                 and tablet browsers handle it much better.There are a couple of reasons to use this pattern. Of course you can set everything in pixels, but if you want to make something 
                 responsive, you usually need to overwrite more values. And another, maybe more important, reason: some people will have their browser font size set to something else than 
                 the default 16px, for example people who are visually impaired. You may be familiar with a browser’s page zoom setting, which scales up all the contents on the page 
@@ -41,7 +42,7 @@
         <p class = "title">Html elements and default browser width</p>
         <article>
             <p>There is no default font size for HTML. In fact HTML has nothing to do with it, font size is determined by CSS but there is no default font size for CSS either.If your 
-                stylesheet has no font size specified then it is determined by the browser and the standard default font size in most browsers is 16px (usually 16px for body text and 
+                stylesheet has no font size specified then it is determined by the browser and the <a id="innerlink" href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-size" target="blanck">standard default font size in most browsers is 16px</a> (usually 16px for body text and 
                 different bigger sizes for h1-h6 headings). That said, even though this is the default it can be amended within the browsers user preferences. For example partially 
                 sighted people could potentially set this to a larger default browser font size if they chose to do so. therefore if we didn't specify the font size of our html element
                 size the browser sets it to it's default value of 16px but if we did specify our html element a size like 200px it will go with this.</p>
@@ -51,7 +52,7 @@
     <section class="q4">
         <p class = "title">Introducing New Features of CSS3</p>
         <article>
-            <p>Now a days we work with the new CSS3 features that provide style for web pages. Most professional web developers use CSS for styling web pages. In the current scenario, CSS 3 
+            <p>Now a days we work with the <a id="innerlink" href="http://webreference.com/authoring/css3/index-2.html" target="blanck">new CSS3 features</a> that provide style for web pages. Most professional web developers use CSS for styling web pages. In the current scenario, CSS 3 
                 is the latest version of CSS and you can determine the use of some new features released with CSS 3.Here are some of the features introduced in css3:</p>
             <p><h4>Selector</h4>
                 Now using the selectors in CSS, you can match the elements and apply the styles for them. The CSS 3 adds new selectors to the existing selectors. There are two types of selectors present here.

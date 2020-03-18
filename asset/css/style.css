@@ -18,10 +18,11 @@ section{
     padding: 5px 30px;
     margin-top: 50px;
 }
-article{
+p + article{
     line-height: 25px;
     font-size: 15px;
     text-align: justify;
+    flex: 1 200px;
 }
 .title{
     font-size: 23px;
@@ -69,7 +70,7 @@ img{
     color: white;
 }
 .Bimg{
-    opacity: 0.5;
+    opacity: 0.75;
 }
 div > a{
     font-size: 20px;
@@ -102,7 +103,7 @@ div > a:hover{
     padding-left: 0;
 }
 .mapouter{
-    float: left;
+
     border: 1px solid;
     border-right: 1px solid rgb(53, 53, 53);
 }
@@ -142,4 +143,28 @@ div > a:hover{
 }
 #cgreet{
     padding: 5px;
+}
+/* Flex demo */
+#section{
+    display: flex;
+}
+/* Media queries demo */
+@media screen and (max-width: 600px) {
+    body {
+      background-color: teal;
+    }
+}
+#innerlink{
+    color: rgb(38, 197, 189);
+    text-decoration: none;
+    font-style: oblique;
+    font-size: 17px;
+}
+#innerlink:hover{
+    background-color: wheat;
+    color: rgb(53, 53, 53);;
+}
+input[type="submit"] {
+    background-color: rgb(141, 140, 137);
+    color: wheat;
 }

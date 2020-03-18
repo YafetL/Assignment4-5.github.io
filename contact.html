@@ -13,28 +13,32 @@
  <header>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="Galary.html">Galary</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="myworks.html">My Works</a></li>
+            <li><a href="index.html" target="blanck">Home</a></li>
+            <li><a href="contact.html" target="blanck">Contact</a></li>
+            <li><a href="Galary.html" target="blanck">Galary</a></li>
+            <li><a href="blog.html" target="blanck">Blog</a></li>
+            <li><a href="myworks.html" target="blanck">My Works</a></li>
         </ul>
     </nav>
 </header>
 <div id="ccontent">
-<img id="cimg" src="./asset/image/download.png" alt="Profile image">
-<div id="cgreet">
-    <h1>Yafet Lulseged</h1>
-    <h3>Student, ITSC</h3>
-    <p>I am Yafet L. , I am <strong>Java</strong> Developer student
-    who has been  studing Java since <em>5 </em></em5> years.
-    I am passionate about working in different types of programming language. </p>
-</div>
+<section id="section">
+    <article><img src="./asset/image/download.png" alt="Profile image"></article>
+    <article>
+        <div id="cgreet">
+        <h1>Yafet Lulseged</h1>
+        <h3>Student, ITSC</h3>
+        <p>I am Yafet L. , I am <strong>Java</strong> Developer student
+        who has been  studing Java since <em>5 </em></em5> years.
+        I am passionate about working in different types of programming language. </p>
+         </div>
+    </article>
+</section>
 <div id="clear"></div>
 <h3>Contact us...</h3>
 <div id="clear"></div>
-
-    <div class="mapouter">
+    <section id="section">
+    <article class="mapouter">
         <div class="gmap_canvas">
             <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa%20university&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
             </iframe><a href="https://www.embedgooglemap.org"></a>
@@ -42,9 +46,10 @@
         <style>
             .mapouter{position:relative;text-align:right;height:415px;width:350px;}.gmap_canvas {overflow:hidden;background:none!important;height:415px;width:350px;}
         </style>
-    </div>
+    </article>
 
-    <div style="border-bottom: 1px solid;">
+    <article style="border-bottom: 1px solid;">
+        <form action="mailto:se.yafet.lulseged@gmail.com" method="POST">
         <div id="contact1">
             <div id="cleft"><label for="fName">First Name:</label> </div>
             <div id="cleft"><label for="sName">Sure Name:</label></div>
@@ -56,7 +61,6 @@
             <div><input type="submit" value="submit"></div>
         </div>
         <div id="contact2">
-            <form action="mailto:se.yafet.lulseged@gmail.com" method="POST">
             <div id="cright"><input type="text" name="fName" id="fName" required size="25"
                 pattern="[A-Za-z]{4,8}" title="4 to 8 alphabetic letters"> 
                 <span class="validity"></span>
@@ -77,10 +81,11 @@
                 <option value="as">Asia</option>
                 <option value="eu">Europe</option></select>
             </div>
-            </form>
         </div>
         <div id="clear"></div>  
-    </div>
+        </form>
+    </article>
+    </section>
 <div id="clear"></div>
 <a href="http:/www.facebook.com" target="blanck">Facebook</a>
 <a href="http:/www.telegram.com" target="blanck">Telegram</a>
