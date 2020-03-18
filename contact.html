@@ -21,13 +21,16 @@
         </ul>
     </nav>
 </header>
-<div id="content">
-<img src="./asset/image/download.png" alt="Profile image">
-<h1>Yafet Lulseged</h1>
-<h3>Student, ITSC</h3>
-<p>I am Yafet L. , I am <strong>Java</strong> Developer <br> student
-who has been  studing Java since <br> <em>5 </em></em5> years.
-I am passionate about working <br>in different types of programming language. </p>
+<div id="ccontent">
+<img id="cimg" src="./asset/image/download.png" alt="Profile image">
+<div id="cgreet">
+    <h1>Yafet Lulseged</h1>
+    <h3>Student, ITSC</h3>
+    <p>I am Yafet L. , I am <strong>Java</strong> Developer student
+    who has been  studing Java since <em>5 </em></em5> years.
+    I am passionate about working in different types of programming language. </p>
+</div>
+<div id="clear"></div>
 <h3>Contact us...</h3>
 <div id="clear"></div>
 
@@ -37,51 +40,51 @@ I am passionate about working <br>in different types of programming language. </
             </iframe><a href="https://www.embedgooglemap.org"></a>
         </div>
         <style>
-            .mapouter{position:relative;text-align:right;height:250px;width:350px;}.gmap_canvas {overflow:hidden;background:none!important;height:250px;width:350px;}
+            .mapouter{position:relative;text-align:right;height:415px;width:350px;}.gmap_canvas {overflow:hidden;background:none!important;height:415px;width:350px;}
         </style>
     </div>
 
-
-    <form action="mailto:se.yafet.lulseged@gmail.com" method="POST">
-        <label for="fName">First Name:</label> 
-        <input type="text" name="fName" id="fName" required size="25"
-             pattern="[A-Za-z]{4,8}" title="4 to 8 alphabetic letters"> 
-             <span class="validity"></span>
-    
-    
-        <label for="sName">Sure Name:</label>
-        <input type="text" name="sName" id="sName" required size="25"
-         pattern="[A-Za-z]{4,8}" title="4 to 8 alphabetic letters">
-        <span class="validity"></span>
-       
-       
-        <label for="passW">Password:</label>
-        <input type="text" name="passW" id="passW" required size="25"
-            pattern="[A-Za-z1-9]{4,8}" title="4 to 8 non-symbol">
-        <span class="validity"></span>
-    
-    
-        <label for="eMail">Email:</label> 
-        <input type="email" name="eMail" id="eMail">
-    
-    
-        Where are you from:
-        
-            <select name="country" id="">
+    <div style="border-bottom: 1px solid;">
+        <div id="contact1">
+            <div id="cleft"><label for="fName">First Name:</label> </div>
+            <div id="cleft"><label for="sName">Sure Name:</label></div>
+            <div id="cleft"><label for="passW">Password:</label><label for="passW">Password:</label></div>
+            <div id="cleft"><label for="eMail">Email:</label> </div>
+            <div id="cleft">Where are you from:</div>
+            <div id="cleft">Leave your comment</div>
+            <div id="cleft"><textarea name="comment" id="comment" cols="30" rows="10"></textarea></div>
+            <div><input type="submit" value="submit"></div>
+        </div>
+        <div id="contact2">
+            <form action="mailto:se.yafet.lulseged@gmail.com" method="POST">
+            <div id="cright"><input type="text" name="fName" id="fName" required size="25"
+                pattern="[A-Za-z]{4,8}" title="4 to 8 alphabetic letters"> 
+                <span class="validity"></span>
+            </div>
+            <div id="cright"><input type="text" name="sName" id="sName" required size="25"
+                pattern="[A-Za-z]{4,8}" title="4 to 8 alphabetic letters">
+               <span class="validity"></span>
+            </div>
+            <div id="cright"><input type="text" name="passW" id="passW" required size="25"
+                pattern="[A-Za-z1-9]{4,8}" title="4 to 8 non-symbol">
+                <span class="validity"></span>
+            </div>
+            <div id="cright">
+                <input type="email" name="eMail" id="eMail">
+            </div>
+            <div id="cright"><select name="country" id="">
                 <option value="af">Africa</option>
                 <option value="as">Asia</option>
-                <option value="eu">Europe</option>
-             </select>
-        Leave your comment
-        
-       <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
-       <input type="submit" value="submit">
-    </form>
+                <option value="eu">Europe</option></select>
+            </div>
+            </form>
+        </div>
+        <div id="clear"></div>  
+    </div>
 <div id="clear"></div>
 <a href="http:/www.facebook.com" target="blanck">Facebook</a>
 <a href="http:/www.telegram.com" target="blanck">Telegram</a>
-<hr>
-<p align="center">© Yafet Lulseged, 2020 | You're looking great today</p>
+<p style="border-top: 1px solid;" align="center">© Yafet Lulseged, 2020 | You're looking great today</p>
 </div>
 </body>
 </html>

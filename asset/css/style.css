@@ -103,4 +103,43 @@ div > a:hover{
 }
 .mapouter{
     float: left;
+    border: 1px solid;
+    border-right: 1px solid rgb(53, 53, 53);
+}
+#ccontent{
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+}
+/* contact form */
+#cleft{
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid;
+}
+#cright{
+    padding: 5px;
+    margin: 5px;
+}
+#contact1{
+    float: left;
+    padding: 0px;
+    padding-left: 0;
+    border: 1px solid;
+    border-bottom: 0;
+}
+#contact2{
+    float: left;
+    padding: 0px;
+    padding-left: 0;
+    border: 1px solid;
+    border-left: 0;
+}
+#cimg{
+    float: left;
+    margin-right: 15px;
+}
+#cgreet{
+    padding: 5px;
 }
